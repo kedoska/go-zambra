@@ -1,0 +1,11 @@
+name: 'test flow'
+
+steps:
+  - name: node
+    args:
+      - -e
+      - "console.log('1st')"
+  - name: node
+    args:
+      - -e
+      - "console.log('second')"
